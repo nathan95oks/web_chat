@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* Estilo de la barra de navegación */
+.navbar {
+  background-color: #001f3f !important; /* Cambiamos el color de fondo a azul marino */
+  border-bottom: 1px solid #dee2e6 !important;
+}
+
+.navbar-brand {
+  color: #fff !important; /* Cambiamos el color del texto a blanco */
+  font-weight: bold;
+  text-decoration: none !important; /* Quitamos el subrayado */
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important; /* Cambiamos el color del texto a blanco */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff !important;
+}
+
+/* Estilo de las secciones */
+.section {
+  padding: 50px 0;
+  background-color: #001f3f; /* Cambiamos el color de fondo a azul marino */
+  color: #fff; /* Cambiamos el color del texto a blanco */
+}
+
+.section h2 {
+  color: #fff; /* Cambiamos el color del texto a blanco */
+}
+
+/* Estilo de los enlaces */
+a {
+  color: #007bff;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Estilo de los botones */
+.btn {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Estilo de las imágenes de habilidades */
+.img-fluid {
+  max-width: 250px; /* Aumentamos el tamaño máximo de las imágenes */
+}
+
+/* Cambiar el color de fondo de las secciones */
+body {
+  background-color: #001f3f; /* Cambiamos el color de fondo a azul marino */
+  color: #fff; /* Cambiamos el color del texto a blanco */
+}
+
+/* Cambiar el color de fondo de los enlaces de navegación activos */
+.navbar-nav .nav-item.active .nav-link {
+  background-color: #007bff;
+  color: #fff;
+}
